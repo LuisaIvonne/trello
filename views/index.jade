@@ -1,0 +1,28 @@
+extends layout
+
+block content
+      div(class="row col-xs-8 col-sm-10 col-md-offset-1")
+         div(class="panel panel-info")
+            .panel-heading
+              h4 
+                  span(class="glyphicon glyphicon-user")
+                  |   Mis tableros
+            .panel-body
+              div(class="list-group col-md-3")
+                a(href="/tablero" class="list-group-item active text-center")
+                  h4.list-group-item-heading Prueba de Tablero
+                  p.list-group-item-text
+                  | Este tablero fue diseñado exclusivamente para pruebas 
+              div(class="list-group col-md-3")
+                a(href="#" class="list-group-item text-center")
+                  h4.list-group-item-heading Crear un nuevo Tablero
+                  p.list-group-item-text
+                  | Este tablero fue diseñado exclusivamente para pruebas
+        div(class="row col-xs-8 col-sm-10 col-md-offset-1")
+           div(class="panel panel-info")
+              .panel-heading
+                h4 
+                    span(class="glyphicon glyphicon-user")
+                    |   Equipo
+              .panel-body
+                h4 tableros
